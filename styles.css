@@ -1,0 +1,31 @@
+.list {
+  display: inline;
+  background-color: darkgray;
+  padding: auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: gray;
+  padding: 5px;
+}
+
+/* Designing all grid-items */
+.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  background-color:whitesmoke;
+  display: grid;
+
+}
+.links{
+    display: flex;
+}
+img{
+    border-radius: 100%;
+}
