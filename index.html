@@ -3,46 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>Yoseph Dagne</title>
     <link rel="stylesheet" href="styles.css" />
-
+    <link rel="icon" href="image/josias.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap"
+      rel="stylesheet" 
+    />
   </head>
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img
-            src="IMG_20221116_081220.jpg"
-            alt="yosef's profile picture"
-            width="200px"
-            height="200px"
-            style="border-radius: 100%"
-          />
-        </td>
-        <td>
-          <h1>YOSEF DAGNE</h1>
-          <p><em>Student at HARAMAYA UNIVERSITY</em></p>
-         <p> I am a front-end developer </p>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <h1>Skills</h1>
-    <table>
-      <tr >
-        <td>CSS</td>
-        <td>⭐⭐⭐</td>
-        <tr>
-          <td>HTML</td>
-          <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>JavaScript</td>
-          <td>⭐⭐⭐⭐</td>
-        </tr>
-      </tr>
-    </table>
-    <hr>
-    <a href="contacts.htm"> My contacts</a>
+    <header class="top-container">
+      <img class="top-cloud" src="image/cloud.png" alt="Clouds in the sky" />
+      <h1>I'm Yoseph</h1>
+      <h2>a Software Engineering Student</h2>
+      <img class="bottom-cloud" src="image/cloud.png" alt="Clouds in the sky" />
+      <img src="image/mountain.jpg" alt="Mountain landscape" />
+    </header>
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          class="jo"
+          src="image/josi.jpg"
+          alt="Yoseph's profile picture"
+          width="200"
+          height="200"
+        />
+        <h2>Hello.</h2>
+        <p>
+          I am a Software Engineering 3rd year Student at Haramaya University.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <ul class="unordered-list">
+            <li>Web Development</li>
+            <li>Java Programming</li>
+            <li>Python Programming</li>
+            <li>Database Management</li>
+          </ul>
+        </div>
+        <hr />
+        <div>
+          <img class="skill-img" src="image/code.png" alt="Code illustration" />
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <a class="btn" href="mailto:josefdagne5@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <p>&copy; Yoseph Dagne</p>
+    </div>
   </body>
 </html>
